@@ -14,4 +14,23 @@
 # 	K = Arriba
 # 	L = Derecha
 #
+# ---CONVENCIÓN DE NOMBRES---
+# camelCase -> fechaDeNacimiento -> declara variables
+# snake_case -> fecha_de_nacimiento -> bases de datos, casi ni se usa
+# SCREAMING_SNAKE_CASE -> FECHA_DE_NACIMIENTO -> constantes
+# kebab-case -> fecha-de-nacimiento -> solamente para urls y nombres de carpetas
+# l33t -> P445W0RD
+# Notación Húngara -> strNombre -> insica cadena de texto (casi ni se usa)
 
+
+#---LENGUAJE TIPADO FUERTE---
+#Apple -> marca -> Strings
+#iPhone 12 pro -> modelo -> Strings
+#
+#true -> esUsado -> Booleanos
+#
+#
+#
+#
+#
+#
