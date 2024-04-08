@@ -7,3 +7,9 @@
 # ":q!" Sale del archivo descartando cambios sin guardar
 # ":w" Guarda los cambios pero sigues editando
 # ":wq" Guarda los cambios y sale de vim
+
+# Para poder movernos en vim usaremos las siguientes teclas:
+# 	H = Izquierda
+# 	J = Abajo
+# 	K = Arriba
+# 	L = Derecha
