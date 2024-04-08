@@ -20,7 +20,7 @@
 # SCREAMING_SNAKE_CASE -> FECHA_DE_NACIMIENTO -> constantes
 # kebab-case -> fecha-de-nacimiento -> solamente para urls y nombres de carpetas
 # l33t -> P445W0RD
-# Notación Húngara -> strNombre -> insica cadena de texto (casi ni se usa)
+# Notación Húngara -> strNombre -> indica cadena de texto (casi ni se usa)
 
 
 #---LENGUAJE TIPADO FUERTE---
@@ -29,8 +29,12 @@
 #
 #true -> esUsado -> Booleanos
 #
-#
-#
-#
-#
+
+
+# ---IMPRIMIR---
+# cout<<"Texto";
+# cout<<variable;
+# cout<<"\n";
+# ---DECLARAR---
+# int edad = 25;
 #
