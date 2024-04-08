@@ -37,4 +37,11 @@
 # cout<<"\n";
 # ---DECLARAR---
 # int edad = 25;
-#
+
+
+# git pull
+# git commit
+# git push
+# vim archivo_a_modificar
+# g++ -o ejecutable archivo_a_ejecutar
+# ./ejecutable
