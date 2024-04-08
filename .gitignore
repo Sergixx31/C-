@@ -1,0 +1,10 @@
+**.out
+**.exe
+
+**.vcxproj
+**.vcxproj.*
+
+build/
+bin/
+x64/
+x86/

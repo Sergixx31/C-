@@ -2,9 +2,6 @@
 #include <iostream>
 /*iostream -> libreria de entrada y salida de datos */
 
-/*nombre de espacio*/
-using namespace std;
-
 /*funcion main*/
 int main(){
 	
@@ -14,28 +11,29 @@ int main(){
 
 	//int edad = 20;
 	//cout<<edad;
-	//cout<<"\n";
+	//std::cout << std::endl;
  	
 	int entero = 44;
-	cout<<entero;
-	cout<<"\n";
+	std::cout<<entero;
+	std::cout << std::endl;
+	
 
 	float flotante = 4.2233;
-	cout<<flotante;
-	cout<<"\n";
+	std::cout<<flotante;
+	std::cout << std::endl;
 
 	double doble = 3.1416;
-	cout<<doble;
-	cout<<"\n";
+	std::cout<<doble;
+	std::cout << std::endl;
 
 	//se indica con comilla simple pk si lo hacemos con doble le indicamos cadena de texto
 	char letra = 'A';
-	cout<<letra;
-	cout<<"\n";
+	std::cout<<letra;
+	std::cout << std::endl;
 
 	bool booleano = true;
-	cout<<booleano;
-	cout<<"\n";
+	std::cout<<booleano;
+	std::cout << std::endl;
 
 
 	return 0;	
