@@ -45,3 +45,12 @@
 # vim archivo_a_modificar
 # g++ -o ejecutable archivo_a_ejecutar
 # ./ejecutable
+
+
+# Como sabemos si un numero es par?
+# X % 2 == 0 -> multiplo de 2
+#
+#
+#
+#
+#
