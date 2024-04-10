@@ -12,6 +12,10 @@ Para poder movernos en vim usaremos las siguientes teclas:
  	J = Abajo
  	K = Arriba
 	L = Derecha
+dd - Borrar linea
+yy - Copiar una linea
+5yy - Copia las siguientes 5 lineas
+p - Pega lo que tengas al portapapeles
 #####################################
 ---CONVENCIÓN DE NOMBRES---
 camelCase -> fechaDeNacimiento -> declara variables
@@ -32,6 +36,8 @@ cout<<variable;
 cout<<"\n";
 ---DECLARAR---
 int edad = 25;
+---ENTRADA USUARIO---
+cin>>variable_a_rellenar;
 ####################################
 git pull
 git commit
@@ -72,16 +78,24 @@ EJEMPLO:
 	edad = 25
 	(edad >= 18) AND (edad < 70) -> true
 	NOT((edad <18) OR (edad >=70)) -> true
+####################################
+--CONDICIONALES--
+if(a < b){
+	cout<<"X";
+}else{
+	cout<<"Y";
+}
+	Condicional normal, else. Si no se cumple la primera condicion pasa al final
+	Condicional anidado, else if. Si no se cumple una condicion pasa a la siguiente
+####################################
+--SWITCH--
+switch(variable){
 
-
-
-
-
-
-
-
-
-
-
- 
-
+	case 1:
+		cout<<"xd";
+		break;
+	case 2: 
+		cout<<"xd2";
+		break;
+}
+###################################
