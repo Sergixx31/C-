@@ -98,4 +98,24 @@ switch(variable){
 		cout<<"xd2";
 		break;
 }
-###################################
+####################################
+--INCLUDE--
+Es una directiva que nos ayuda a incluir declaracioens de otros ficheros.
+#include<nombre_libreria> -> librerias que son de c++, de nuestro entorno
+#include "nombre_libreria"> -> librerias, que estén dentro de la carpeta del fichero
+Basicamente creas un archivo .h (header) y le añades el include, luego en el cpp le haces el include del archivo anterior.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
