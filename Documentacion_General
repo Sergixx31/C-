@@ -1,56 +1,87 @@
 # DOCUMENTACION C++ BY SERGI M
 
-# EDITAR ARCHIVO CON NVIM -> nvim nombre_archivo
-# "i" P:ara poder escribir
-# "v" Para seleccionar texto
-# ":q" Para salir del archivo cuando no haya cambios pendientes sin guardar
-# ":q!" Sale del archivo descartando cambios sin guardar
-# ":w" Guarda los cambios pero sigues editando
-# ":wq" Guarda los cambios y sale de vim
+EDITAR ARCHIVO CON NVIM -> nvim nombre_archivo
+"i" P:ara poder escribir
+"v" Para seleccionar texto
+":q" Para salir del archivo cuando no haya cambios pendientes sin guardar
+":q!" Sale del archivo descartando cambios sin guardar
+":w" Guarda los cambios pero sigues editando
+":wq" Guarda los cambios y sale de vim
+Para poder movernos en vim usaremos las siguientes teclas:
+ 	H = Izquierda
+ 	J = Abajo
+ 	K = Arriba
+	L = Derecha
+#####################################
+---CONVENCIÓN DE NOMBRES---
+camelCase -> fechaDeNacimiento -> declara variables
+snake_case -> fecha_de_nacimiento -> bases de datos, casi ni se usa
+SCREAMING_SNAKE_CASE -> FECHA_DE_NACIMIENTO -> constantes
+kebab-case -> fecha-de-nacimiento -> solamente para urls y nombres de carpetas
+l33t -> P445W0RD
+Notación Húngara -> strNombre -> indica cadena de texto (casi ni se usa)
+####################################
+---LENGUAJE TIPADO FUERTE---
+Apple -> marca -> Strings
+iPhone 12 pro -> modelo -> Strings
+true -> esUsado -> Booleanos
+####################################
+---IMPRIMIR---
+cout<<"Texto";
+cout<<variable;
+cout<<"\n";
+---DECLARAR---
+int edad = 25;
+####################################
+git pull
+git commit
+git push
+vim archivo_a_modificar
+g++ -o ejecutable archivo_a_ejecutar
+./ejecutable
+###################################
+Como sabemos si un numero es par?
+X % 2 == 0 -> multiplo de 2
+###################################
+Operadores de asignación
+int a = 20;
+int b = 10;
+a * = b; a -> vale 200 (20), le asigo a "a" el valor de cuando multiplique 
+###################################
+Operadores de comparación
+== -> igual -> 5==5
+> -> mayor -> 200>15
+< -> menos -> 95<100
+>= -> mayor igual -> 100>=100
+<= -> menos igual -> 100<=105
+!= -> distinto -> 10!=5
+###################################
+Operadores logicos
+--NOT-- contrario
+	false -> true
+	true -> false
+--AND-- necesitamos 2 true
+	true, true -> true
+	true, false -> false
+	false, false -> false
+--OR-- necesitamos 1 true
+	true, true -> true
+	true, false -> true
+	false, false -> false
+EJEMPLO:
+	edad = 25
+	(edad >= 18) AND (edad < 70) -> true
+	NOT((edad <18) OR (edad >=70)) -> true
 
-# Para poder movernos en vim usaremos las siguientes teclas:
-# 	H = Izquierda
-# 	J = Abajo
-# 	K = Arriba
-# 	L = Derecha
-#
-# ---CONVENCIÓN DE NOMBRES---
-# camelCase -> fechaDeNacimiento -> declara variables
-# snake_case -> fecha_de_nacimiento -> bases de datos, casi ni se usa
-# SCREAMING_SNAKE_CASE -> FECHA_DE_NACIMIENTO -> constantes
-# kebab-case -> fecha-de-nacimiento -> solamente para urls y nombres de carpetas
-# l33t -> P445W0RD
-# Notación Húngara -> strNombre -> indica cadena de texto (casi ni se usa)
 
 
-#---LENGUAJE TIPADO FUERTE---
-#Apple -> marca -> Strings
-#iPhone 12 pro -> modelo -> Strings
-#
-#true -> esUsado -> Booleanos
-#
 
 
-# ---IMPRIMIR---
-# cout<<"Texto";
-# cout<<variable;
-# cout<<"\n";
-# ---DECLARAR---
-# int edad = 25;
 
 
-# git pull
-# git commit
-# git push
-# vim archivo_a_modificar
-# g++ -o ejecutable archivo_a_ejecutar
-# ./ejecutable
 
 
-# Como sabemos si un numero es par?
-# X % 2 == 0 -> multiplo de 2
-#
-#
-#
-#
-#
+
+
+ 
+
