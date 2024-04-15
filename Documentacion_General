@@ -43,6 +43,7 @@ git pull
 git commit
 git push
 vim archivo_a_modificar
+#Me he crado un  alias para el siguiente comando, g+ archivo.cpp
 g++ -o ejecutable archivo_a_ejecutar
 ./ejecutable
 ###################################
@@ -104,13 +105,29 @@ Es una directiva que nos ayuda a incluir declaracioens de otros ficheros.
 #include<nombre_libreria> -> librerias que son de c++, de nuestro entorno
 #include "nombre_libreria"> -> librerias, que estén dentro de la carpeta del fichero
 Basicamente creas un archivo .h (header) y le añades el include, luego en el cpp le haces el include del archivo anterior.
-
-
-
-
-
-
-
+####################################
+--Directiva Define--
+Permite que el compilador sustituya tokens, y expandir la macro con un identificador y una sequencia que nosotros le declaremos.
+Podemos facilitar operaciones sin escribir tantas lineas en nuestro programa
+#define identificador secuencia
+####################################
+--FUNCIONES--
+void miFuncion(string a="por defecto");
+void miFuncion(string b){
+	cout<<b;
+}
+Luego, llamamos a la funcion "miFuncion" en el main y va a imprimir el mensaje
+####################################
+--BUCLES--
+WHILE
+	Inicio -> Condicion -> Si -> Codigo -> Condicion -> si.... #hasta que de no y se acabe el programa
+	Inicio -> Condicion -> No -> End
+#0 es menor que 3? entra, suma 1 a contador y ejecuta...hasta que contador llega a 3 y no entra al bucle y sigue con el codigo
+int contador = 0;
+while(contador < 3){
+	contador++;
+	restoDeCodigo();
+}
 
 
 
