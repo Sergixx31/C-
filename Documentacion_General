@@ -119,7 +119,7 @@ void miFuncion(string b){
 Luego, llamamos a la funcion "miFuncion" en el main y va a imprimir el mensaje
 ####################################
 --BUCLES--
-WHILE
+#WHILE
 	Inicio -> Condicion -> Si -> Codigo -> Condicion -> si.... #hasta que de no y se acabe el programa
 	Inicio -> Condicion -> No -> End
 #0 es menor que 3? entra, suma 1 a contador y ejecuta...hasta que contador llega a 3 y no entra al bucle y sigue con el codigo
@@ -128,6 +128,37 @@ while(contador < 3){
 	contador++;
 	restoDeCodigo();
 }
+
+#DO WHILE
+En el while ejecutamos el codigo despues de que se cumpla la condicion, en el do while lo ejecutamos antes
+int contador = 0;
+do{
+	contador++;
+	verificarConexion();
+}while(contador < 3);
+
+#FOR
+Se usa si te tiene que repetir cierta cantidad de veces. (contadores) 
+for(int contador = 0; cont < 3; cont++){
+	verificarConexion();
+}
+
+###################################
+--ARRAYS--(arreglo xd)
+
+La primera posición es 0.
+H O L A   M U N D O 
+0 1 2 3 4 5 6 7 8 9
+
+int numero[] = {1,2,3,4,5};
+for(int i = 0; i <= 5; i++){
+	cout<<numero[i]<<endl;
+}
+
+
+
+
+
 
 
 
